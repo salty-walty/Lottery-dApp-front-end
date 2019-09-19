@@ -61,7 +61,7 @@ class App extends Component {
       <form onSubmit={this.onSubmit}>
         <h4>Want to try your luck?</h4>
         <div>
-          <label>Amount of ether to enter</label>
+          <label>Amount of ether to enter (must be greater than 0.01 ETH)</label>
           <input
             value={this.state.value}
             onChange={event => this.setState({value: event.target.value})}
